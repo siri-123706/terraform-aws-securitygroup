@@ -19,13 +19,9 @@ variable "project" {
 
 variable "environment" {
     type = string
-
 }
 
 variable "sg_tags" {
     type = map(string)
     default = {}
 }
-
-
-
